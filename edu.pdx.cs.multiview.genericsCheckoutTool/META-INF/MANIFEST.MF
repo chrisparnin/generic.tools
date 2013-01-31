@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: EclipseCheckoutTool Plug-in
+Bundle-SymbolicName: edu.pdx.cs.multiview.genericsCheckoutTool;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: edu.pdx.cs.multiview.eclipsecheckouttool.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.cvs;bundle-version="1.0.100",
+ org.eclipse.team.cvs.core;bundle-version="3.3.100",
+ org.eclipse.team.cvs.ui;bundle-version="3.3.100",
+ org.eclipse.ui.editors;bundle-version="3.4.0",
+ org.eclipse.jface.text;bundle-version="3.4.0",
+ edu.pdx.cs.multiview.util;bundle-version="1.1.0",
+ org.eclipse.team.core;bundle-version="3.4.0",
+ org.eclipse.team.ui;bundle-version="3.4.0",
+ org.eclipse.pde.runtime;bundle-version="3.4.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

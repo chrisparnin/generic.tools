@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/activity/!svn/ver/18/generics/tools/export/jre/lib/ext
+END
+dnsns.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/activity/!svn/ver/18/generics/tools/export/jre/lib/ext/dnsns.jar
+END
+sunpkcs11.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/activity/!svn/ver/18/generics/tools/export/jre/lib/ext/sunpkcs11.jar
+END
+localedata.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/activity/!svn/ver/18/generics/tools/export/jre/lib/ext/localedata.jar
+END
+QTJava.zip
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/activity/!svn/ver/18/generics/tools/export/jre/lib/ext/QTJava.zip
+END
+meta-index
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/activity/!svn/ver/18/generics/tools/export/jre/lib/ext/meta-index
+END
+sunjce_provider.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/activity/!svn/ver/18/generics/tools/export/jre/lib/ext/sunjce_provider.jar
+END
+sunmscapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/activity/!svn/ver/18/generics/tools/export/jre/lib/ext/sunmscapi.jar
+END

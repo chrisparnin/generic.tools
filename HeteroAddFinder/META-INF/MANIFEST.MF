@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ExtractMethodFinder Plug-in
+Bundle-SymbolicName: HeteroAddFinder;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: edu.ncsu.csc.heteroAddFinder.ExtractMethodFinderPlugin
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.jdt.core,
+ org.eclipse.core.runtime.compatibility,
+ org.eclipse.jdt.ui,
+ org.eclipse.core.resources;bundle-version="3.6.0"
+Eclipse-LazyStart: true
+Bundle-ClassPath: mysql-connector-java-5.0.8-bin.jar,
+ .,
+ collections-generic-4.01.jar

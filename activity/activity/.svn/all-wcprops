@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/activity/!svn/ver/704/generics/tools/activity/activity
+END
+verify_download.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/activity/!svn/ver/18/generics/tools/activity/activity/verify_download.py
+END
+cvs_commands.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/activity/!svn/ver/214/generics/tools/activity/activity/cvs_commands.py
+END
+git_commands.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/activity/!svn/ver/214/generics/tools/activity/activity/git_commands.py
+END
+create_project_for_compare.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/activity/!svn/ver/214/generics/tools/activity/activity/create_project_for_compare.py
+END
+svn_commands.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/activity/!svn/ver/214/generics/tools/activity/activity/svn_commands.py
+END
+svn_commands_csharp.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/activity/!svn/ver/704/generics/tools/activity/activity/svn_commands_csharp.py
+END

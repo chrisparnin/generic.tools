@@ -1,0 +1,20 @@
+!SESSION 2010-06-24 21:43:40.074 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.ui.examples.rcp.browser.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.ui.examples.rcp.browser.product -consolelog
+
+!ENTRY org.eclipse.equinox.app 0 0 2010-06-24 21:43:40.789
+!MESSAGE Product org.eclipse.ui.examples.rcp.browser.product could not be found.
+!SESSION 2010-06-24 21:44:23.518 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product tokenize.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product tokenize.product
+
+!ENTRY org.eclipse.equinox.app 0 0 2010-06-24 21:44:24.199
+!MESSAGE Product tokenize.product could not be found.

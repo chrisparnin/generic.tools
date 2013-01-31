@@ -1,0 +1,70 @@
+<project name="logparsers" default="jar" basedir=".">
+
+  <!-- set global properties for this build -->
+  <property name="src" location="src"/>
+  <property name="build" location="build"/>
+  <property name="dist"  location="dist"/>
+  <property name="project" value="genericsconnector"/>
+  <property name="install_prefix" location="/usr/local/"/>
+
+  <property name="lib.dir"     value="lib"/>
+
+  <path id="classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+  </path>
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}/classes"/>
+  </target>
+
+
+  <target name="compile" depends="init"
+        description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+
+	<javac srcdir="${src}" destdir="${build}/classes" classpathref="classpath" debug="on"/>
+  </target>
+
+
+  <target name="jar" depends="compile"
+        description="generate the distribution" >
+  		<taskdef name="jarjar" classname="com.tonicsystems.jarjar.JarJarTask"
+  	        classpath="${lib.dir}/jarjar.jar"/>
+  		
+
+    <!-- Create the distribution directory -->
+    <mkdir dir="${build}/jar"/>
+
+    <jarjar destfile="${build}/jar/${project}.jar" >
+		<fileset dir="${build}/classes"/>
+		<fileset dir="${src}" includes="**/*.java" />
+		<zipfileset src="${lib.dir}/postgresql-8.2-506.jdbc3.jar"/>
+		<zipfileset src="${lib.dir}/mysql-connector-java-5.1.13-bin.jar"/>
+    </jarjar>
+
+  </target>
+
+  <target name="clean"
+        description="clean up" >
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+  </target>
+
+  <target name="docs" description = "build javadocs">
+	  <javadoc
+	           destdir="docs/api"
+	           author="true"
+	           version="true"
+	           use="true"
+		   packagenames="com.ninlabs.*"
+	  	       sourcepath="${src}"
+	  	       private="true">
+	
+	</javadoc>
+  </target>
+</project>
+

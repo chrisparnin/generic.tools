@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS HeteroAddFinderResults(
+ProjectName	    VARCHAR(255),
+ClassName		VARCHAR(255),
+DeclType		VARCHAR(255),
+DeclLineNumber		BIGINT,
+AddType			VARCHAR(255),
+AddLineNumber		BIGINT,
+SuperType		VARCHAR(255),
+STLevel				BIGINT
+) ENGINE=MyISAM;
+
+CREATE TABLE IF NOT EXISTS ProjectIDEs(
+ProjectName		VARCHAR(50) DEFAULT '',
+IDE				VARCHAR(100) DEFAULT '');

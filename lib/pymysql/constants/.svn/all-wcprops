@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/activity/!svn/ver/183/generics/tools/lib/pymysql/constants
+END
+FLAG.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/activity/!svn/ver/183/generics/tools/lib/pymysql/constants/FLAG.py
+END
+SERVER_STATUS.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/activity/!svn/ver/183/generics/tools/lib/pymysql/constants/SERVER_STATUS.py
+END
+CLIENT.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/activity/!svn/ver/183/generics/tools/lib/pymysql/constants/CLIENT.py
+END
+COMMAND.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/activity/!svn/ver/183/generics/tools/lib/pymysql/constants/COMMAND.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/activity/!svn/ver/183/generics/tools/lib/pymysql/constants/__init__.py
+END
+FIELD_TYPE.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/activity/!svn/ver/183/generics/tools/lib/pymysql/constants/FIELD_TYPE.py
+END
+ER.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/activity/!svn/ver/183/generics/tools/lib/pymysql/constants/ER.py
+END

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         name="tokenize"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-scoped"
+            thread="main"
+            visible="true">
+         <run
+               class="tokenize.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="Tokenize.application"
+            name="product">
+         <property
+               name="appName"
+               value="product">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

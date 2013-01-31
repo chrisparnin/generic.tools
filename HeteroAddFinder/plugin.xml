@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+    <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            adaptable="true"
+            objectClass="org.eclipse.jdt.core.IJavaElement"
+            nameFilter="*"
+            id="heteroaddfinder.popup">
+         <action
+               label="Find Hetero Collection Adds..."
+               class="edu.ncsu.csc.heteroAddFinder.popup.actions.FindHeteroAdds"
+               id="heteroaddfinder.action1"/>
+      </objectContribution>
+   </extension>
+	<extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            adaptable="true"
+            objectClass="org.eclipse.jdt.core.IJavaElement"
+            nameFilter="*"
+            id="subtractfinder.popup">
+         <action
+               label="Subtract Finder"
+               class="edu.ncsu.csc.subtractFinder.SubtractFinder"
+               id="subtractfinder.action1"/>
+      </objectContribution>
+   </extension>
+</plugin>

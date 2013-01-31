@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            id="edu.ncsu.csc.generics.declarations.contribution1"
+            nameFilter="*"
+            objectClass="org.eclipse.jdt.core.IJavaElement">
+         <menu
+               label="Generics"
+               path="additions"
+               id="edu.ncsu.csc.generics.declarations.menu1">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               label="Analyze Declarations"
+               class="edu.ncsu.csc.generics.declarations.popup.actions.AnalyzeDeclarations"
+               menubarPath="edu.ncsu.csc.generics.declarations.menu1/group1"
+               enablesFor="+"
+               id="edu.ncsu.csc.generics.declarations.newAction">
+         </action>
+      </objectContribution>
+   </extension>
+
+</plugin>

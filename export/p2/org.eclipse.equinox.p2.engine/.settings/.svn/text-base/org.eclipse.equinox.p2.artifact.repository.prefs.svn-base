@@ -1,0 +1,19 @@
+#Tue Jul 06 22:38:51 EDT 2010
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export_p2_org.eclipse.equinox.p2.core_cache/uri=file\:/C\:/Users/cp125/Desktop/repo/activity/generics/tools/export/p2/org.eclipse.equinox.p2.core/cache/
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export_p2_org.eclipse.equinox.p2.core_cache/suffix=artifacts.xml
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export_p2_org.eclipse.equinox.p2.core_cache/isSystem=true
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export/type=org.eclipse.equinox.p2.extensionlocation.artifactRepository
+eclipse.preferences.version=1
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export/isSystem=false
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export/version=1
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export/description=
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export_p2_org.eclipse.equinox.p2.core_cache/name=download cache
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export/enabled=true
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export_p2_org.eclipse.equinox.p2.core_cache/version=1.0.0
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export/provider=
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export/uri=file\:/C\:/Users/cp125/Desktop/repo/activity/generics/tools/export/
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export_p2_org.eclipse.equinox.p2.core_cache/type=org.eclipse.equinox.p2.artifact.repository.simpleRepository
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export_p2_org.eclipse.equinox.p2.core_cache/enabled=true
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export/name=C\:\\Users\\cp125\\Desktop\\repo\\activity\\generics\\tools\\export
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export_p2_org.eclipse.equinox.p2.core_cache/provider=
+repositories/file\:_C\:_Users_cp125_Desktop_repo_activity_generics_tools_export_p2_org.eclipse.equinox.p2.core_cache/description=

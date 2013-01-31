@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Analyze Generic Declarations
+Bundle-SymbolicName: edu.ncsu.csc.generics.declarations; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.ncsu.csc.generics.declarations.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.jdt;bundle-version="3.6.1",
+ org.eclipse.jdt.core;bundle-version="3.6.1",
+ org.eclipse.jdt.ui;bundle-version="3.6.1"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

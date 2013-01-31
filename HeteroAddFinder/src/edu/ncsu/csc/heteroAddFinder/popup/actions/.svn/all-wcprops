@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/activity/!svn/ver/495/generics/tools/HeteroAddFinder/src/edu/ncsu/csc/heteroAddFinder/popup/actions
+END
+FindInterestingMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/activity/!svn/ver/487/generics/tools/HeteroAddFinder/src/edu/ncsu/csc/heteroAddFinder/popup/actions/FindInterestingMethods.java
+END
+FindHeteroAdds.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/activity/!svn/ver/495/generics/tools/HeteroAddFinder/src/edu/ncsu/csc/heteroAddFinder/popup/actions/FindHeteroAdds.java
+END
+VariableReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/activity/!svn/ver/495/generics/tools/HeteroAddFinder/src/edu/ncsu/csc/heteroAddFinder/popup/actions/VariableReference.java
+END
+Variable.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/activity/!svn/ver/495/generics/tools/HeteroAddFinder/src/edu/ncsu/csc/heteroAddFinder/popup/actions/Variable.java
+END
+HeteroVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/activity/!svn/ver/486/generics/tools/HeteroAddFinder/src/edu/ncsu/csc/heteroAddFinder/popup/actions/HeteroVisitor.java
+END

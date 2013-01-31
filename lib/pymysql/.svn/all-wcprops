@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/activity/!svn/ver/183/generics/tools/lib/pymysql
+END
+err.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/activity/!svn/ver/183/generics/tools/lib/pymysql/err.py
+END
+charset.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/activity/!svn/ver/183/generics/tools/lib/pymysql/charset.py
+END
+converters.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/activity/!svn/ver/183/generics/tools/lib/pymysql/converters.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/activity/!svn/ver/183/generics/tools/lib/pymysql/__init__.py
+END
+cursors.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/activity/!svn/ver/183/generics/tools/lib/pymysql/cursors.py
+END
+times.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/activity/!svn/ver/183/generics/tools/lib/pymysql/times.py
+END
+connections.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/activity/!svn/ver/183/generics/tools/lib/pymysql/connections.py
+END

@@ -1,0 +1,2 @@
+#! /bin/sh
+java -Xmx2g -classpath build/jar/logparsers.jar edu.ucdavis.cssr.logparsers.FastRevisionCVSLogParser $1 $2 $3 $4

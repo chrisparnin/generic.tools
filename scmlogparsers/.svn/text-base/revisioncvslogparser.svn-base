@@ -1,0 +1,2 @@
+#! /bin/sh
+java -classpath build/jar/logparsers.jar edu.ucdavis.cssr.logparsers.RevisionCVSLogParser $1 $2 $3 $4
