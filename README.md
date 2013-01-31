@@ -12,7 +12,7 @@ We used these tools for our research published in:
 A [blog post](http://blog.ninlabs.com/2011/03/java-generics-adoption-how-new-features-are-introduced-championed-or-ignored/) summarizing the research.
 
 Finally, the data is available here:
-[http://code.google.com/p/promisedata/wiki/generics][]
+[http://code.google.com/p/promisedata/wiki/generics](http://code.google.com/p/promisedata/wiki/generics)
 
 ## How to set up
 
