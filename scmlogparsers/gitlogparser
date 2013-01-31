@@ -1,0 +1,2 @@
+#! /bin/sh
+java -classpath build/jar/logparsers.jar edu.ucdavis.cssr.logparsers.GitLogParser $1 $2 $3 

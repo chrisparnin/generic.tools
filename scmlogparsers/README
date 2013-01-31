@@ -1,0 +1,34 @@
+Here's the quick deal on the log parsers.
+
+These essentially parse a svn or cvs log file and insert
+information into a database.  To run, you need three things:
+
+ * the project name (this can be anything, but make it consistent with what you
+ use for other tools)
+
+ * a log file.  
+   To get an svn log file do:
+   svn log --xml -v > foo.log
+   To get a cvs log file do:
+   cvs log > bar.log
+
+ * a jdbc url for the database you are using.  Heres an example:
+   jdbc:mysql://chimp.cs.ubc.ca/generics?user=cabird&password=foobar
+
+   remember that on the command line in bash, ampersands need to be escaped (i.e. \&)
+
+Then you pass these as arguments to the java in that order.  Note that the
+parser to use depends on whether it is a cvs or an svn log file, but the
+database schema is the same for both (that's why the revision "column" is a
+string and not an int).
+
+Note that the postgres and mysql database driver jars are baked into the
+logparser.jar file by ant so that's all you need to have on your classpath.
+You don't need to add any jdbc jars.
+
+Here's a simple invocation example
+
+java -classpath build/lib/logparsers.jar edu.ucdavis.cssr.logparsers.RevisionSVNLogParser 
+    jedit jedit.xml.log jdbc:mysql://chimp.cs.ubc.ca/generics?user=cabird\&password=foobar
+
+email me (cabird@gmail.com) with any Q's

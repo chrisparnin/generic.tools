@@ -1,0 +1,9 @@
+CREATE INDEX casts_fileid_index ON casts(fileid);
+CREATE INDEX casts_changed_fileid_index ON casts_changed(fileid);
+CREATE INDEX halstead_fileid_index ON halstead(fileid);
+CREATE INDEX parameterized_declarations_fileid_index ON parameterized_declarations(fileid);
+CREATE INDEX parameterized_declarations_changed_fileid_index ON parameterized_declarations_changed(fileid);
+CREATE INDEX parameterized_types_fileid_index ON parameterized_types(fileid);
+CREATE INDEX parameterized_types_changed_fileid_index ON parameterized_types_changed(fileid);
+CREATE INDEX revisions_fileid_index ON revisions(FileID);
+CREATE INDEX revisions_transactionid_index ON revisions(transactionid);

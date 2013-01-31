@@ -1,0 +1,8 @@
+210:ParameterizedType:Pair<T,T>
+212:ParameterizedType:Pair<T,T>
+215:ParameterizedType:ArrayList<T>
+219:ParameterizedType:ArrayList<T>
+219:ParameterizedType:ArrayList<T>
+228:ParameterizedType:List<Double>
+228:ParameterizedType:ArrayList<Double>
+230:ParameterizedType:List<Double>

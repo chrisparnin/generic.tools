@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="java.lang.Object"
+            id="edu.pdx.cs.multiview.eclipseCheckoutTool.contribution1">
+         <menu
+               label="Checkout..."
+               path="additions"
+               id="edu.pdx.cs.multiview.eclipseCheckoutTool.menu1">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               label="All Eclipse Projects"
+               class="edu.pdx.cs.multiview.eclipsecheckouttool.popup.actions.CheckoutAll"
+               menubarPath="edu.pdx.cs.multiview.eclipseCheckoutTool.menu1/group1"
+               enablesFor="1"
+               id="edu.pdx.cs.multiview.eclipseCheckoutTool.newAction">
+         </action>
+      </objectContribution>
+   </extension>
+
+</plugin>
