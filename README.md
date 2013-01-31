@@ -7,7 +7,7 @@ Research tool chain for analysis of Java generic usage in open source projects.
 
 We used these tools for our research published in:
 - [Java Generics Adoption: How New Features are Introduced, Championed, or Ignored](http://research.microsoft.com/apps/pubs/default.aspx?id=146635)
-- and [Adoption and Use of Java Generics](http://www.cc.gatech.edu/~vector/papers/generics2.pdf)a
+- and [Adoption and Use of Java Generics](http://www.cc.gatech.edu/~vector/papers/generics2.pdf)
 
 A [blog post](http://blog.ninlabs.com/2011/03/java-generics-adoption-how-new-features-are-introduced-championed-or-ignored/) summarizing the research.
 
